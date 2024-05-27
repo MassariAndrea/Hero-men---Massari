@@ -115,3 +115,9 @@ ul{
 .navigation li .r{
     margin-right: 56px;
 }
+
+.lineabianca{
+    border-top: 2px solid white; 
+    width: 275px;
+    margin-bottom: 20px;
+}
