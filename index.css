@@ -1,123 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
-.navigation ul{
-    display: flex;
-    list-style: none;
+.navigation ul {
+  display: flex;
+  list-style: none;
 }
 
-.navigation li a{
-    text-decoration: none;
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 17px;
-    color: white;
+.navigation li a {
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: white;
 }
 
-.navigation{
-    flex-flow: column wrap;
-    margin-top: -25px;
+.navigation {
+  flex-flow: column wrap;
+  margin-top: -25px;
 }
 
-.navigation li .z{
-    margin-right: 56px;
+.navigation li .opzione {
+  margin-right: 56px;
 }
 
-.mainTitle img{
-    height: 110px;
-    width: 207px;
+.titolocentro img {
+  height: 110px;
+  width: 207px;
 }
 
-.a{
-    display: flex;
-    justify-content: space-between;
-
+.a {
+  display: flex;
+  justify-content: space-between;
 }
 
-.a .navigation{
-    justify-content: flex-end;
+.a .navigation {
+  justify-content: flex-end;
 }
 
-.logo{
-    padding-left: 35px;
-    padding-top: 22px;
+.logoPanetti {
+  padding-left: 35px;
+  padding-top: 22px;
 }
 
-  
-.hero{
-    min-height: 100vh;
-    background-image:url(static/sfondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    font-size: 110px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.hero {
+  min-height: 100vh;
+  background-image: url(static/sfondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-size: 110px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.Main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    flex-grow: 1;
-  }
-
-.ww{
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 55px;
-    border-top: 2px solid #343434;
-    border-bottom: 2px solid #343434;
-    padding: 10px 0;
+.centro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-grow: 1;
 }
 
-.lorema{
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    margin: 32px;
-
+.testolineacentro {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 55px;
+  border-top: 2px solid #343434;
+  border-bottom: 2px solid #343434;
+  padding: 10px 0;
 }
 
-.button{
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #080C71;
-        text-decoration: none;
-        display: block;
-        background: white;
-        font-size: 25px;
-        padding: 5px 80px;
-        line-height: 50px;
-        border-radius: 12px;
-        border-top: 2px solid white;
-        
+.testobase {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 32px;
 }
 
-ul{
-    justify-content: flex-end;
-    
+.button {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #080c71;
+  text-decoration: none;
+  display: block;
+  background: white;
+  font-size: 25px;
+  padding: 5px 80px;
+  line-height: 50px;
+  border-radius: 12px;
+  border-top: 2px solid white;
 }
 
-.h{
-    margin-right: 50px;
+ul {
+  justify-content: flex-end;
 }
 
-.navigation li .r{
-    margin-right: 56px;
+.YT {
+  margin-right: 50px;
 }
 
-.lineabianca{
-    border-top: 2px solid white; 
-    width: 275px;
-    margin-bottom: 20px;
+.navigation li .insta {
+  margin-right: 56px;
+}
+
+.navigation li .face {
+  margin-right: 56px;
+}
+
+.lineabianca {
+  border-top: 2px solid white;
+  width: 275px;
+  margin-bottom: 20px;
 }
